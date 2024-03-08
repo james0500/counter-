@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.logo-main{
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.countdown{
+    font-size: 22rem;
+}
+
+.instruction{
+    font-size: 2.2rem;
+}
+
+.choose-minutes{
+    width: 6rem;
+    height: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 5px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.min{
+    font-size: 2rem;
+    color: black;
+}
+
+.choose{
+    align-self: flex-end;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 12px;
+    background-color: white;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.hidden{
+    display: none;
+}
